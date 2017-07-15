@@ -1,0 +1,3 @@
+[submodule "jieba-zh_TW"]
+	path = jieba-zh_TW
+	url = https://github.com/ldkrsi/jieba-zh_TW
