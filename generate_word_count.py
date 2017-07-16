@@ -35,7 +35,7 @@ SCHEMA = '''
 def main():
     if not os.path.exists('./output'):
         os.mkdir('./output')
-    with open('./groups.json', 'r') as ftr:
+    with open('./events.json', 'r') as ftr:
         data = json.loads(ftr.read())
 
     all_word_map = defaultdict(int)
